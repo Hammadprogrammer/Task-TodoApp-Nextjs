@@ -36,7 +36,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen p-4 bg-gray-100 flex flex-col items-center">
-      <h1 className="text-3xl font-bold text-blue-700 mb-6">All Todos</h1>
+      <h1 className="text-3xl font-bold text-blue-700 mb-6">Task Mangement System</h1>
 
       {/* Search Bar */}
       <input
@@ -72,7 +72,7 @@ const Home = () => {
                 ))}
                  
               </div>
-              <Link href={'/detail'}>see more</Link>
+         
             </div>
           ))
         ) : (
